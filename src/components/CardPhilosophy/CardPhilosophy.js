@@ -34,7 +34,7 @@ const CardPhilosophy = ({ detail }) => {
                             <Container>
                                 <Card className="cardBody shadow p-3 mb-5 bg-white rounded">
                                     <Row className="rowReserve">
-                                        <Col className="contentReserve">
+                                        <Col>
                                             <h3>{element.title}</h3>
                                             <p>{element.description}</p>
                                             <Button variant="danger" size="sm">SEE WHAT'S NEXT &gt;</Button>
