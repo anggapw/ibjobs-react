@@ -17,7 +17,7 @@ const CardPhilosophy = ({ detail }) => {
                     if (element.position === "left") {
                         return (
                             <Container>
-                                <Card className="cardBody">
+                                <Card className="cardBody shadow p-3 mb-5 bg-white rounded">
                                     <Row>
                                         <Col lg={4}><img src={element.url} alt="card" className="cardImage" /></Col>
                                         <Col class="contentNormal">
@@ -32,7 +32,7 @@ const CardPhilosophy = ({ detail }) => {
                     } else {
                         return (
                             <Container>
-                                <Card className="cardBodyReverse">
+                                <Card className="cardBody shadow p-3 mb-5 bg-white rounded">
                                     <Row className="rowReserve">
                                         <Col className="contentReserve">
                                             <h3>{element.title}</h3>
