@@ -2,6 +2,9 @@
   margin-bottom: 40px;
 }
 
+.blogAuthor {
+  color: red;
+}
 /* .CardRow {
   display: flex;
   justify-content: space-between;

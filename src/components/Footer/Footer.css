@@ -1,1 +1,21 @@
+.footerWrapper {
+  background-color: white;
+}
 
+.fab {
+  margin-left: 10px;
+}
+
+.row-link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.row-link ul {
+  display: flex;
+}
+
+.row-link li {
+  padding-left: 15px;
+  font-size: 0.8rem;
+}

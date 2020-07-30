@@ -11,12 +11,13 @@ const JobCard = ({ job }) => {
                 <div>
                     <Container>
                         <Row>
-                            <h3>{element.jobTitle}</h3>
+                            <h4 className="jobTitle">{element.jobTitle}</h4>
                         </Row>
                         <Row>
                             <span className="location"><i class="fas fa-map-marker-alt fa-lg"></i><p>{element.jobLocation}</p></span>
                             <span className="location"><i class="fas fa-briefcase fa-lg"></i><p>{element.jobPosition}</p></span>
                         </Row>
+                        <hr/>
                     </Container>
                 </div>
             ))}

@@ -29,3 +29,11 @@
 .blogCard {
   display: flex;
 }
+
+.form-control {
+  height: 50px;
+}
+
+.cardPhilosophyWrapper {
+  margin-bottom: 40px;
+}

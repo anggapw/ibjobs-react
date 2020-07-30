@@ -10,7 +10,7 @@ const VideoList = ({url, title}) => {
     return (
         <div className="VideoSection">
             <Container>
-                <h3 className="d-flex justify-content-center">Latest from ImpactByte</h3>
+                <h4 className="d-flex justify-content-center">Latest from ImpactByte</h4>
                 <Row>
                     <Col>
                         <ReactPlayer url='https://www.youtube.com/watch?v=8HFq1GGv0E0' width='100%' height='300px' />

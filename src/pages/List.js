@@ -35,9 +35,9 @@ const JobList = () => {
     jobPosition: 'Video Encoding and Streaming'
   }]
   return (
-    <div className="PageList">
-      <JobCard job={content} />
-    </div>
+      <div className="PageList">
+        <JobCard job={content} />
+      </div>
   )
 }
 

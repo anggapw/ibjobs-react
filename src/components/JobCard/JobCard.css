@@ -6,3 +6,7 @@
 .location i {
   margin-right: 10px;
 }
+
+.jobTitle {
+  color: red;
+}

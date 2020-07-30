@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/Container';
 
 import Home from '../../pages/Home';
 import List from '../../pages/List';
+import Details from '../../pages/Details'
 import Logo from '../../assets/logo/ib-logo.svg';
 import './Navbar.css';
 
@@ -42,6 +43,9 @@ const Navbars = () => {
                 </Route>
                 <Route path="/List">
                     <List />
+                </Route>
+                <Route path="/blog/:id">
+                    <Details />
                 </Route>
             </Switch>
 

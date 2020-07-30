@@ -1,0 +1,22 @@
+.cardBody {
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.cardImage {
+  width: 300px;
+  height: 198px;
+}
+
+.contentNormal {
+  /* margin-top: 30px; */
+}
+
+.contentReserve {
+  margin-left: 10px;
+}
+
+.rowReserve {
+  display: flex;
+  justify-content: space-between;
+}
